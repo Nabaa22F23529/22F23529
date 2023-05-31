@@ -25,6 +25,7 @@ revenue_per_month = []
 for month in months:
     sales = float(input(f"Enter the sales amount for {month}: "))
     revenue_per_month.append(sales)
+    edited by maryam
 
 total_revenue = sum(revenue_per_month)
 
@@ -35,3 +36,4 @@ for i in range(len(months)):
 print(f"\nTotal revenue for the year: ${total_revenue:.2f}")
 average_revenue = total_revenue / len(months)
 print(f"Average monthly revenue: ${average_revenue:.2f}")
+#edited by maryam
